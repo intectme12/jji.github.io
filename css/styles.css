@@ -4491,7 +4491,7 @@ textarea.form-control-lg {
 }
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #ffc007;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
@@ -11433,26 +11433,27 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
-li{ 
-    margin-bottom: 15px;
-}
-ul{
-    padding-left: 0px;
-}
+  li{ 
+      margin-bottom: 15px;
+  }
+  ul{
+      padding-left: 0px;
+  }
 
-#chickenstock-sub li {
-    
-    margin-bottom: 0px;
-}
-.project-div {
-    float: left;
-    vertical-align: middle;
-    width: 33%;
-}
-.project-div ul li{
-    margin-bottom: 15px;
-}
-.chicken-ul li {
-    margin-bottom: 15px;
-    list-style: none;
-}
+  #chickenstock-sub li {
+      
+      margin-bottom: 0px;
+  }
+  .project-div {
+      float: left;
+      vertical-align: middle;
+      width: 33%;
+  }
+
+  .project-div ul li{
+      margin-bottom: 15px;
+  }
+  .chicken-ul li {
+      margin-bottom: 15px;
+      list-style: none;
+  }
