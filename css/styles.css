@@ -11410,10 +11410,10 @@ p.lead {
 section.resume-section {
   display: flex;
   align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0;
-  padding-bottom: 5rem;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
@@ -11422,15 +11422,15 @@ section.resume-section .resume-section-content {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: fit-content;
   }
 }
 @media (min-width: 992px) {
   section.resume-section {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 40px;
-    padding-bottom: 5rem;
+    padding-bottom: 40px;
   }
 }
   li{ 
@@ -11456,4 +11456,8 @@ section.resume-section .resume-section-content {
   .chicken-ul li {
 
       list-style: none;
+  }
+  table tr td {
+
+    text-indent: 20px;
   }
